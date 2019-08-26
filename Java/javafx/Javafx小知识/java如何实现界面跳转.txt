@@ -1,0 +1,63 @@
+package test;
+
+import javafx.application.*;
+import javafx.event.ActionEvent;
+import javafx.scene.*;
+import javafx.stage.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+public class Jfx2 extends Application{
+ 
+	@Override
+	public void start(Stage stage) throws Exception{
+            
+		StackPane pane=new StackPane();
+		Button button=new Button("Open another stage");
+		button.setCursor(Cursor.HAND);
+		button.setOnAction((ActionEvent e)->{
+			Jfx3 open=new Jfx3();
+			try{
+                            open.start(new Stage());
+                            //stage.hide(); //点开新的界面后，是否关闭此界面
+			} 
+			catch (Exception e1){
+			}
+		});
+		
+		pane.getChildren().add(button);
+		Scene scene=new Scene(pane,300,200);
+		stage.setScene(scene);
+		stage.setTitle("AAAAA");
+		stage.show();	
+	}
+ 
+}
+
+
+package test;
+ 
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.stage.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+public class Jfx3 extends Application{
+ 
+	@Override
+	public void start(Stage stage) throws Exception{
+            
+		StackPane pane=new StackPane();
+		Label lb=new Label("This is a new stage");
+		lb.setCursor(Cursor.HAND);
+		
+		pane.getChildren().add(lb);
+		
+		Scene scene=new Scene(pane,300,200);
+		
+		stage.setScene(scene);
+		stage.setTitle("BBBBB");
+		stage.show();		
+	}
+
+}
+

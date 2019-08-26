@@ -1,0 +1,22 @@
+#--------------------YAML格式配置springboot 方便后期调试与运维-----------------------------
+
+#debug: true
+
+#logging:
+#  level:
+#  root: error
+#  file: e:/myspringboot.log
+#spring:
+# datasource:
+# driver-class-name: com.mysql.cj.jdbc.Driver
+#url: jdbc:mysql//localhost:3306/test?
+#password: 123
+
+
+#-------------------------------通常将项目的自定义信息放置在配置文件中
+#   springboot允许我们自定义应用配置项，在程序运行时运行动态加载，这位程序提供了良好的可维护性
+com:
+  config:
+    name: 赏金工会
+    description: 这是个大学生悬赏互助网站
+    show-advert: true

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sjgh</groupId>
+    <artifactId>sjgh</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <!--引入springboot最基础的组件-，所有springboot都要依赖于她才能进行构建-->
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.1.RELEASE</version>
+    </parent>
+    <!--增加springboot的依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <!--使用了一系列的启动器来描述工程所要支持的功能，web表示增加支持web的能力-->
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+    <!--spring boot的打包方式    -->
+    <build>
+        <plugins>
+            <!--通过插件的形式帮助我们进行项目的构建-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <!--下面这个可以在打包时将所有的类和资源整合成一个独立的可运行的jar包-->
+                <artifactId>spring-boot-maven-plugin</artifactId>
+
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

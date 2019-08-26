@@ -1,0 +1,39 @@
+public class Test extends Application {
+    
+    @Override
+    public void start(Stage primaryStage) {
+
+        Image imageA = new Image("https://timgsa.baidu.com/timg?image&quality="
+                + "80&size=b9999_10000&sec=1541873756275&di=f1a898f4164a4c09434928bc1445045c&imgtype=0&src="
+               + "http%3A%2F%2Fimg2.niutuku.com%2Fdesk%2F1208%2F2020%2Fntk-2020-34077.jpg");
+
+        Image image = new Image("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3205240291,1387038640&fm=26&gp=0.jpg");
+        //Image image = new Image("C:\\Users\\asus\\Desktop\\timg.jpg");
+        
+        ImageView imageViewA = new ImageView(imageA); 
+        ImageView imageView = new ImageView(image); 
+        imageView.setFitHeight(230);
+        imageView.setFitWidth(290);
+        imageViewA.setFitHeight(230);
+        imageViewA.setFitWidth(290);
+
+        Button btn = new Button("", imageView);
+        btn.setStyle("-fx-font: 3 arial; -fx-base: #FFFFFF;");
+        btn.setPrefSize(80, 210);
+        
+        Button btnA = new Button("", imageViewA);
+        btnA.setStyle("-fx-font: 3 arial; -fx-base: #FFFAFA;");
+        btnA.setPrefSize(80, 210);
+        
+        GridPane root = new GridPane();
+        root.add(btn, 0, 1);
+        root.add(btnA, 0, 2);
+
+
+        Scene scene = new Scene(root);        
+        primaryStage.setTitle("Hello World!");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+    
+}

@@ -1,0 +1,76 @@
+String urlLA = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\»Ø¹øÈâ.jpg";
+        Image imageLA = new Image(urlLA);
+        ImageView imageViewLA = new ImageView(imageLA);
+        imageViewLA.setFitWidth(180);//¿í
+        imageViewLA.setFitHeight(250);//¸ß
+        
+        String urlLB = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\´óÔÓ»â.jpg";
+        Image imageLB = new Image(urlLB);
+        ImageView imageViewLB = new ImageView(imageLB);
+        imageViewLB.setFitWidth(180);//¿í
+        imageViewLB.setFitHeight(250);//¸ß
+        
+        String urlLC = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\ÂéÆÅ¶¹¸¯.jpg";
+        Image imageLC = new Image(urlLC);
+        ImageView imageViewLC = new ImageView(imageLC);
+        imageViewLC.setFitWidth(180);//¿í
+        imageViewLC.setFitHeight(250);//¸ß
+        
+        //ÖÐ¼ä²¿·Ö
+        String urlTestA = "file:C:\\Users\\asus\\Desktop\\SiChu\\picture\\centerA.jpg";
+        String urlTestB = "file:C:\\Users\\asus\\Desktop\\SiChu\\picture\\centerB.jpg";
+        String urlTestC = "file:C:\\Users\\asus\\Desktop\\SiChu\\picture\\centerC.jpg";
+        
+        Image imageTest = new Image(urlTestA);
+        ImageView imageViewTest = new ImageView(imageTest);
+        imageViewTest.setFitWidth(1300);//¿í
+        imageViewTest.setFitHeight(510);//¸ß
+        
+        //ÖÐÏÂ²¿·Ö
+        String jpgC1 = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\´¨²Ë.jpg";
+        Image imageC1 = new Image(jpgC1);
+        ImageView imageViewC1 = new ImageView(imageC1);
+        imageViewC1.setFitWidth(270);//¿í
+        imageViewC1.setFitHeight(140);//¸ß
+        
+        String jpgC2 = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\»Õ²Ë.jpg";
+        Image imageC2 = new Image(jpgC2);
+        ImageView imageViewC2 = new ImageView(imageC2);
+        imageViewC2.setFitWidth(270);//¿í
+        imageViewC2.setFitHeight(140);//¸ß
+        
+        String jpgC3 = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\Õã²Ë.jpg";
+        Image imageC3 = new Image(jpgC3);
+        ImageView imageViewC3 = new ImageView(imageC3);
+        imageViewC3.setFitWidth(270);//¿í
+        imageViewC3.setFitHeight(140);//¸ß
+        
+        String jpgC4 = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\Ïæ²Ë.jpg";
+        Image imageC4 = new Image(jpgC4);
+        ImageView imageViewC4 = new ImageView(imageC4);
+        imageViewC4.setFitWidth(270);//¿í
+        imageViewC4.setFitHeight(140);//¸ß
+        
+        String jpgC5 = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\ÔÁ²Ë.jpg";
+        Image imageC5 = new Image(jpgC5);
+        ImageView imageViewC5 = new ImageView(imageC5);
+        imageViewC5.setFitWidth(270);//¿í
+        imageViewC5.setFitHeight(140);//¸ß
+        
+        String jpgC6 = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\ËÕ²Ë.jpg";
+        Image imageC6 = new Image(jpgC6);
+        ImageView imageViewC6 = new ImageView(imageC6);
+        imageViewC6.setFitWidth(270);//¿í
+        imageViewC6.setFitHeight(140);//¸ß
+        
+        String jpgC7 = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\Ãö²Ë.jpg";
+        Image imageC7 = new Image(jpgC7);
+        ImageView imageViewC7 = new ImageView(imageC7);
+        imageViewC7.setFitWidth(270);//¿í
+        imageViewC7.setFitHeight(140);//¸ß
+        
+        String jpgC8 = "file:C:\\Users\\asus\\Desktop\\SiChu\\src\\Â³²Ë.jpg";
+        Image imageC8 = new Image(jpgC8);
+        ImageView imageViewC8 = new ImageView(imageC8);
+        imageViewC8.setFitWidth(270);//¿í
+        imageViewC8.setFitHeight(140);//¸ß
